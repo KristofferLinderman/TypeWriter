@@ -58,7 +58,7 @@ class TypeWriter {
   type() {
     const currentIndex = this.wordIndex % this.words.length;
     const fullText = this.words[currentIndex];
-    console.log(fullText);
+    // console.log(fullText);
 
     if (this.isDeliting) {
       this.txt = fullText.substring(0, this.txt.length - 1);
